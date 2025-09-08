@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    color-scheme: dark;
+    background-image: url("https://images.steamusercontent.com/ugc/867368888874093158/2D407A5DC0F79AF1FB34BB2F922F64BA82134830/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true");
+    background-repeat: no-repeat;
+     background-size: cover;
+      font-family: "Determination Mono";
+      font-size: 24px;
+    background-color: black;
+    color: lightgrey
+
+}
+@font-face{
+    font-family: "Determination Mono";
+    src: url("determinationmonoweb-webfont.ttf");
+    font-size: 24px;
+    background-color: darkslategrey;
+    color: whitesmoke
+}
