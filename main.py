@@ -1,5 +1,7 @@
 from flask import Flask, render_template,redirect,request
 import random
+import os
+
 
 #app name Lol!
 app = Flask(__name__)
@@ -214,5 +216,6 @@ def Gamblin():
 
 #run the app lOL!
 
-app.run(host)
+app.run(host="0.0.0.0",port = int(os.environ.get("PORT",10000)))
+
 
