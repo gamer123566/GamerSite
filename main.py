@@ -214,4 +214,5 @@ def Gamblin():
 
 #run the app lOL!
 
-app.run(debug = True)
+app.run(host)
+
